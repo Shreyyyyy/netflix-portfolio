@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 1080x1350 social poster; rendered to social-post.jpg by scripts/build-post.mjs -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=block" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; background: #07070a; overflow: hidden; }
+  body { position: relative; font-family: Inter, Helvetica, Arial, sans-serif; color: #f4f1ec; }
+  .glow { position: absolute; inset: 0; background: radial-gradient(60% 45% at 50% 36%, rgba(229,19,43,0.5), rgba(90,11,27,0.3) 55%, transparent 100%); }
+  .ring { position: absolute; left: 180px; top: 160px; width: 720px; height: 720px; border-radius: 50%; border: 2px solid rgba(255,61,90,0.22); box-shadow: 0 0 120px rgba(229,19,43,0.25), inset 0 0 80px rgba(229,19,43,0.12); }
+  .portrait { position: absolute; left: 90px; top: 70px; width: 900px; }
+  .fade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(7,7,10,0.94) 63%, #07070a 100%); }
+  .mark { position: absolute; left: 60px; top: 48px; display: flex; align-items: center; gap: 12px; }
+  .mark span { font-weight: 700; font-size: 22px; letter-spacing: 8px; color: #a7a6ad; }
+  .tag { position: absolute; right: 58px; top: 52px; background: #e5132b; border-radius: 20px; padding: 10px 22px; font-weight: 700; font-size: 17px; letter-spacing: 3px; }
+  .titles { position: absolute; inset: auto 0 48px 0; text-align: center; }
+  .studio { font-weight: 700; font-size: 20px; letter-spacing: 10px; color: #a7a6ad; }
+  h1 { font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 220px; line-height: 0.9; letter-spacing: 6px; margin-top: 10px; }
+  .series { font-weight: 700; font-size: 30px; letter-spacing: 22px; color: #ff3d5a; margin-top: 2px; padding-left: 22px; }
+  .roles { font-weight: 600; font-size: 22px; letter-spacing: 3px; margin-top: 34px; }
+  .meta { font-size: 20px; letter-spacing: 1px; color: #a7a6ad; margin-top: 14px; }
+  .cta { display: inline-flex; align-items: center; gap: 16px; margin-top: 30px; background: #f4f1ec; color: #07070a; border-radius: 8px; padding: 16px 34px; font-weight: 700; font-size: 24px; letter-spacing: 3px; }
+  .url { font-size: 21px; color: #a7a6ad; margin-top: 18px; }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="ring"></div>
+  <img class="portrait" src="../../public/assets/portrait-1100.webp" alt="">
+  <div class="fade"></div>
+
+  <div class="mark">
+    <svg width="30" height="42" viewBox="0 0 24 32"><path d="M18 6c-1.8-1.8-4-2.6-6.5-2.6C7.6 3.4 5 5.6 5 9c0 7.6 14 4.6 14 11.6 0 3-2.8 5-6.4 5-3 0-5.4-1.2-7.2-3" fill="none" stroke="#e5132b" stroke-width="4" stroke-linecap="round"/></svg>
+    <span>SERIES</span>
+  </div>
+  <div class="tag">NEW SERIES</div>
+
+  <div class="titles">
+    <p class="studio">A JAIN ORIGINAL</p>
+    <h1>SHREYANS</h1>
+    <p class="series">THE SERIES</p>
+    <p class="roles">AI / ML ENGINEER &nbsp;•&nbsp; AGENTIC AI &nbsp;•&nbsp; LLM SYSTEMS</p>
+    <p class="meta">8 Originals · 4 Seasons · Maruti Suzuki &amp; Honda spend chatbot · Marketing Mix Model</p>
+    <div class="cta"><svg width="22" height="26" viewBox="0 0 22 26"><path d="M0 0 L22 13 L0 26 Z" fill="#07070a"/></svg>NOW STREAMING</div>
+    <p class="url">netflix-portfolio-seven-ruddy.vercel.app</p>
+  </div>
+</body>
+</html>
