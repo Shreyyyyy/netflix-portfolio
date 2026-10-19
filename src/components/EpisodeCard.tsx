@@ -27,11 +27,8 @@ export default function EpisodeCard({ episode, index }: { episode: Episode; inde
             <h4 className="absolute bottom-4 left-4 right-4 font-display text-3xl leading-none tracking-wide text-bone [transform:translateZ(30px)] sm:text-4xl">{episode.title}</h4>
           </div>
           <div className="flex flex-1 flex-col p-4">
-            <div className="mb-2 flex items-center justify-between text-[11px] text-smoke">
+            <div className="mb-2 text-[11px] text-smoke">
               <span className="font-semibold text-mist">{episode.runtime}</span>
-              <span className="flex h-7 w-7 items-center justify-center rounded-full border border-white/20 text-[10px] text-bone transition group-hover:border-bone group-hover:bg-bone group-hover:text-ink">
-                ▶
-              </span>
             </div>
             <p className="text-sm leading-relaxed text-bone/80">{episode.description}</p>
             <div className="mt-auto flex flex-wrap gap-1.5 pt-4">
